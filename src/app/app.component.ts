@@ -33,7 +33,7 @@ export class ConferenceApp {
   appPages: PageObj[] = [
     { title: 'Body Collection', component: TabsPage, icon: 'calendar' },
     { title: 'Drivers', component: TabsPage, index: 1, icon: 'contacts' },
-    { title: 'Driver', component: TabsPage, index: 2, icon: 'map' },
+    { title: 'Map', component: TabsPage, index: 2, icon: 'map' },
     { title: 'About', component: TabsPage, index: 3, icon: 'information-circle' },
   ];
   loggedInPages: PageObj[] = [
